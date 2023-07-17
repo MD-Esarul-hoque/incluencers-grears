@@ -128,6 +128,7 @@
     margin:0px 40px;
 }
 @media screen and (max-width:576px){
+    
     .header{
         flex-direction: column;
         padding: 50px 0px;
@@ -139,6 +140,7 @@
     .sec1{
         flex-direction: column-reverse;
         text-align: center;
+        margin-left: 20px;
     }
     .img{
         height: 300px;
@@ -148,18 +150,22 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding: 10px 0px; 
-        margin: 50px 50px;   
+        margin: 50px 50px; 
+         
     }
     .sec3-title{
-        font-size: 20px;
+        font-size:20px;
     }
     .sec3-div1{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);     
     }
     .sec4{
         flex-direction: column-reverse;
         margin: 30px 20px;
         text-align: center;
+    }
+    .footer{
+        margin-top: 0px;
     }
 }
