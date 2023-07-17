@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+   
+}
+.nav-li{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sec1-title{
+    font-size: 2rem;
+    font-weight:700;
+}
+.sec1-paragraph{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.btn{
+    background-color: #f1075d;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.img{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 150px;
+    border-top: 1px solid rgb(197, 196, 196);
+    border-bottom: 1px solid rgb(197, 196, 196);
+    padding: 20px;
+    margin-top: 100px;
+
+}
+.sec3{
+    margin: 80px 150px;
+    align-items: center;
+}
+.sec3-title{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 30px;
+}
+.sec3-div1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-around;
+}
+.sec3-div1-div1{
+    background-color: rgb(250, 250, 247);
+    padding: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.sec3-h3{
+    margin: 10px 0px;
+    font-size: 1.5rem;
+}
+.sec3-h5{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.sec3-star ,.sec3-paragraph{
+    font-weight: bold;
+}
+.sec3-last-corner{
+    color: #f1075d;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 20px;
+}
+.sec4{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 60px 150px;
+}
+.footer{
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 60px 0px;
+    margin-top: 150px;
+
+}
+.footer-paragraph{
+    font-size: 13px;
+    margin: 7px 0px;
+}
+.footer-small-paragraph{
+    margin-bottom: 40px;
+    font-size: 11px;
+}
+.icons{
+    margin:0px 40px;
+}
